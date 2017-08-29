@@ -10,6 +10,12 @@ body
 	color: white;
 	border: 4px double;
 }
+#img
+{
+	width: 160px;
+	height: 213px;
+	background-color: #777;
+}
 .star
 {
 	width: 135px;
@@ -19,6 +25,10 @@ body
 .fill
 {
 	background-image: url("imgs/star-filled.png");
+}
+.fill:hover
+{
+	background-image: url("imgs/hover/star-filled.png");
 }
 .s1
 {
@@ -40,10 +50,14 @@ body
 {
 	background-image: url("imgs/star-background.png");
 }
+.background:hover
+{
+	background-image: url("imgs/hover/star-background.png");
+}
 </style>
 </head>
 <body>
-<center><div style="width: 160px; height: 213px; background-color: #777"></div></center>
+<center><div id="img"></div></center>
 <br><br>
 Nome: Luiz Henrique Rios
 <br>

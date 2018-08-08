@@ -1,8 +1,8 @@
-**MATRIZ SOLVER  **
+# MATRIZ SOLVER
 
 **Desenvolvimento de um App Para Resolução de Operações com Matrizes**
 
-**Adriano R. A. Araújo**** 1 ****, Luiz Henrique Rios**** 1**
+**Adriano R. A. Araújo¹**, **Luiz Henrique Rios¹**
 
 1 Bacharelado em Engenharia de Software – 4º Semestre -  Universidade Católica de Salvador (UCSal)
 
@@ -18,11 +18,11 @@ Salvador – BA – Brasil
 
 **Keywords:** Android, Matrix, Matriz Solver, _KitKat_
 
-**1**** INTRODUÇÃO**
+**1 INTRODUÇÃO**
 
 Operações com matrizes são operações que envolvem complexidade e minuciosidade, mas devido a confiabilidade e precisão na resolução de problemas de engenharia e computação, são muito utilizadas tanto por profissionais da área, quanto por alunos e professores de disciplinas correlatas. No mercado existem softwares como o Matlab e o Scilab, que realizam tais operações e utilizam linguagens próprias, similares com a linguagem C++. Em dispositivos móveis existem softwares que realizam algumas operações com matrizes, porém a grande maioria nãooferece a funcionalidade de realizar tais operações utilizando uma linguagem mais próxima do usuário comum. Nesse projeto desenvolvemos um software do tipo app em android para realizar tais operações, onde o usuário comum pode utilizá-lo sem grandes preocupações com as notações das linguagens de programação. As operações que usuário pode realizar são: Soma, subtração, multiplicação, transposta, inversa, determinante, adjunta e resolução de sistemas por escalonamento.
 
-**2**  **OBJETIVOS**
+**2 OBJETIVOS**
 
 Para resolver as questões de realizar operações complexas com matrizes, como soma, subtração, multiplicação, determinante, adjunta, inversa, transposta e resolução de sistemas lineares, em um espaço de tempo pequeno, e de forma portátil, o Matriz Solver foi desenvolvido.
 
@@ -32,7 +32,7 @@ Para resolver as questões de realizar operações complexas com matrizes, como 
 
 Este app foi desenvolvido para Android em linguagem Java, utilizando a IDE Android Studio 3.1.3. Para tal, foram seguidas as especificações descrita nos requisitos funcionais e não funcionais a seguir.
 
-**3****.1 **** Requisitos Funcionais**
+**3.1 Requisitos Funcionais**
 
 RF001 – Selecionar a operação :
 
@@ -94,7 +94,7 @@ RF008 – Sair:
 
 _Para Sair do App basta clicar no campo navegável no canto superior e depois em sair, ou clicar no símbolo de retorno do android até que o App feche._
 
-**3****.2 Requisitos Não-Funcionais**
+**3.2 Requisitos Não-Funcionais**
 
 RNF01 – A aplicação é feita paraAndroid à partir do 4.4 KitKat
 
@@ -104,9 +104,9 @@ RNF03 – O SGBD utilizado será armazenamento em banco MySQL.
 
 RNF04 – A Manutenção será feita por atualizações disponíveis na PlayStore
 
-**4**** METODOLOGIA**
+**4 METODOLOGIA**
 
-**4.1**  **Ferramentas Utilizadas**
+**4.1 Ferramentas Utilizadas**
 
 Nosso Appnão tem uma estrutura de banco de dados complexa, pois só armazenamos os resultados das 5 últimas operações do usuário salvando e buscando na web, onde os resultados dessas operações são embutidas em campos textuais no formato JSON, sendo convertidos com a biblioteca Gson. &quot;_JSON (JavaScript Object Notation) é uma formatação leve de troca de dados... baseado em um subconjunto da_ [linguagem de programação JavaScript](http://javascript.crockford.com/)_...é em formato texto e completamente independente de linguagem_&quot; [json.org,2018].
 
@@ -203,7 +203,7 @@ Segundo IEZZI 2002, definimos a soma das matrizes e como sendo a matriz em que ,
 
       Todos os métodos criados para a resolução de matrizes foram baseados no estudo matemático dos conceitos acima mencionados.
 
-**4****. ****4**** Casos de Uso**
+**4 **. ****4 ** Casos de Uso**
 
 O App Matriz Solver, se apresenta conforme os casos de uso e o diagrama UML. Seguem abaixo os descritivos dos casos de uso e o diagrama UML.
 
@@ -266,7 +266,7 @@ Fluxo Principal:
 
 2. O Sistema deverá apresentar o resultado da operação solicitada pelo usuário.
 
-**4****. ****5**  **Uml Diagrama de Casos de Uso**
+**4 **. ****5   **Uml Diagrama de Casos de Uso**
 
 | **Imagem 8** : Diagrama UML |
 | --- |

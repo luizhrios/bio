@@ -10,23 +10,23 @@ Salvador – BA – Brasil
 
 {adrianor.araujo, luiz.rios}@ucsal.edu.br
 
-**Resumo.** _Operações com matrizes envolvem complexidade, para auxiliar estudantes, professores e até curiosos, de forma que o usuário possa resolver tais operações de forma simples, o Matriz Solver_ _foi_ _desenvolvido. Este artigo descreve as etapas d __o_ _desenvolvimento d__ esse_ _App para dispositivos móveis, Matriz Solver, onde temos um descritivo dos requisitos, dos casos de uso, diagrama UML, descrição da arquitetura, as tecnologias empregadas, e um Mockup das telas. O App_ _foi __desenvolvido para__ Android à partir do 4.4 KitKat__._
+**Resumo.** _Operações com matrizes envolvem complexidade, para auxiliar estudantes, professores e até curiosos, de forma que o usuário possa resolver tais operações de forma simples, o Matriz Solver foi desenvolvido. Este artigo descreve as etapas do desenvolvimento desse App para dispositivos móveis, Matriz Solver, onde temos um descritivo dos requisitos, dos casos de uso, diagrama UML, descrição da arquitetura, as tecnologias empregadas, e um Mockup das telas. O App foi desenvolvido para Android à partir do 4.4 KitKat._
 
-**Palavras-chaves:** _Android, Matrizes, Matriz Solver,_ _KitKat_
+**Palavras-chaves:** _Android, Matrizes, Matriz Solver, KitKat_
 
 **Abstract.** _Matrix operations involve complexity, to help students, teachers and even curious, so that the user can solve such operations in a simple way, Matriz Solver was developed. This article describes the steps in the development of this mobile app, Matriz Solver, where we have a description of the requirements, use cases, UML diagram, architecture description, the technologies used, and a screens Mockup. The app was developed for Android, requires 4.4 KitKat and up._
 
-**Keywords:** Android, Matrix, Matriz Solver, _KitKat_
+**Keywords:** _Android, Matrix, Matriz Solver, KitKat_
 
-**1 INTRODUÇÃO**
+**1. INTRODUÇÃO**
 
 Operações com matrizes são operações que envolvem complexidade e minuciosidade, mas devido a confiabilidade e precisão na resolução de problemas de engenharia e computação, são muito utilizadas tanto por profissionais da área, quanto por alunos e professores de disciplinas correlatas. No mercado existem softwares como o Matlab e o Scilab, que realizam tais operações e utilizam linguagens próprias, similares com a linguagem C++. Em dispositivos móveis existem softwares que realizam algumas operações com matrizes, porém a grande maioria nãooferece a funcionalidade de realizar tais operações utilizando uma linguagem mais próxima do usuário comum. Nesse projeto desenvolvemos um software do tipo app em android para realizar tais operações, onde o usuário comum pode utilizá-lo sem grandes preocupações com as notações das linguagens de programação. As operações que usuário pode realizar são: Soma, subtração, multiplicação, transposta, inversa, determinante, adjunta e resolução de sistemas por escalonamento.
 
-**2 OBJETIVOS**
+**2. OBJETIVOS**
 
 Para resolver as questões de realizar operações complexas com matrizes, como soma, subtração, multiplicação, determinante, adjunta, inversa, transposta e resolução de sistemas lineares, em um espaço de tempo pequeno, e de forma portátil, o Matriz Solver foi desenvolvido.
 
-**3 REQUISITOS**
+**3. REQUISITOS**
 
 
 

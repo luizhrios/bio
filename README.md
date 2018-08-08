@@ -40,7 +40,7 @@ _Ao abrir o aplicativo aparecerá para o usuário uma tela com as opções das o
 
 RF001.1 - Exceção 01:
 
- _Caso o usuário clicar no símbolo de retorno do Android, fechará o aplicativo._
+_Caso o usuário clicar no símbolo de retorno do Android, fechará o aplicativo._
 
 RF002 - Consultar :
 
@@ -48,7 +48,7 @@ _Ao selecionar a opção de Consulta, o usuário terá acesso a um histórico co
 
 RF002.1 - Exceção 02 :
 
-_Caso o usuário não tenha nenhuma operação no histórico, não aparecerá histórico e_ _mostrará apenas_ _o menu inicial._
+_Caso o usuário não tenha nenhuma operação no histórico, não aparecerá histórico e mostrará apenas o menu inicial._
 
 RF003 – Selecionar o tamanho da(s) matriz(es) :
 
@@ -56,7 +56,7 @@ _Após selecionar a operação desejada o usuário deverá digitar no campo espe
 
 RF003.1 Exceção 03:
 
-_Caso o número de colunas e(ou) de linhas for incompatível com determinada operação o sistema_ _não permitirá a continuidade do erro __, e__ le_ _voltará para a_ _opção_ _de inserção do número de linhas e colunas._
+_Caso o número de colunas e(ou) de linhas for incompatível com determinada operação o sistema não permitirá a continuidade do erro, ele voltará para a opção de inserção do número de linhas e colunas._
 
 RF003.2 - Exceção 04:
 
@@ -64,11 +64,11 @@ _Caso o usuário queira retornar um passo anterior, basta clicar no símbolo de 
 
 RF004 – Inserir os valores da Matriz:
 
-_Após selecionar a operação desejada e inserir o tamanho da(s) matriz(es), aparecerão campos para inserção dos números de acordo com o tamanho da(s) matriz(es)_ _informado__(s)._
+_Após selecionar a operação desejada e inserir o tamanho da(s) matriz(es), aparecerão campos para inserção dos números de acordo com o tamanho da(s) matriz(es) informado(s)._
 
 RF004.1 - Exceção 05:
 
-_Caso o usuário não escolha nenhum valor em algum dos campos e apertar ok,_ _o campo ficará marcado como incorreto __,_ _não permitindo a continuidade da operação até que o mesmo esteja preenchido__._
+_Caso o usuário não escolha nenhum valor em algum dos campos e apertar ok, o campo ficará marcado como incorreto, não permitindo a continuidade da operação até que o mesmo esteja preenchido._
 
 RF004.2 - Exceção 06:
 
@@ -76,7 +76,7 @@ _Caso o usuário queira retornar um passo anterior, basta clicar no símbolo de 
 
 RF005 – Fazer a Operação:
 
-_Após inserir os valores da(s) matriz(es) o usuário selecionará a opção_ _de realizar operação__, e em seguida será realizada a operação, mostrando_ _na_ _tela o resultado da operação._
+_Após inserir os valores da(s) matriz(es) o usuário selecionará a opção de realizar operação, e em seguida será realizada a operação, mostrando na tela o resultado da operação._
 
 RF005 - Exceção 07:
 
@@ -84,7 +84,7 @@ _Caso o usuário queira retornar um passo anterior, basta clicar no símbolo de 
 
 RF006 – Salvar:
 
-_Após mostrar o resultado da operação realizada com a(s) matriz(es),_ _o sistema irá automaticamente_ _salvar o resultado da operação realizada no hi__stórico de operações_ _para consulta posterior._
+_Após mostrar o resultado da operação realizada com a(s) matriz(es), o sistema irá automaticamente salvar o resultado da operação realizada no histórico de operações para consulta posterior._
 
 RF007 – Início:
 
@@ -108,13 +108,15 @@ RNF04 – A Manutenção será feita por atualizações disponíveis na PlayStor
 
 **4.1 Ferramentas Utilizadas**
 
-Nosso App não tem uma estrutura de banco de dados complexa, pois só armazenamos os resultados das 5 últimas operações do usuário, onde os resultados dessas operações são embutidas em campos textuais no formato JSON, sendo convertidos com a biblioteca Gson. > JSON (JavaScript Object Notation) é uma formatação leve de troca de dados... baseado em um subconjunto da linguagem de programação JavaScript ...é em formato texto e completamente independente de linguagem"; [json.org,2018].
+Nosso App não tem uma estrutura de banco de dados complexa, pois só armazenamos os resultados das 5 últimas operações do usuário, onde os resultados dessas operações são embutidas em campos textuais no formato JSON, sendo convertidos com a biblioteca Gson.
+> JSON (JavaScript Object Notation) é uma formatação leve de troca de dados... baseado em um subconjunto da linguagem de programação JavaScript ...é em formato texto e completamente independente de linguagem"
+> - [json.org,2018]
 
-O desenvolvimento do Appfoipara Android à partir do 4.4 KitKat, e para o desenvolvimento do layout do App, interação com o servidor web, gerenciamento dos dados das operações, e a integração com as funcionalidades, foi utilizada a IDE Android Studio 3.1.3, onde usamos a linguagem Java. O layout do App é dinâmico, ele muda a apresentação da tela conforme a interação do usuário, como no caso da Na criação dos métodos de resolução das operações matriciais, foi utilizado a IDE Eclipse Oxigen 3, onde em linguagem Java, pudemos realizar os testes com as resoluções das operações anteriormente supracitadas, para a partir daí colocarmos as mesmas no android Studio, evitando assim uma sobrecarga de memória em cada simulação de layout nos momentos dos testes no App .
+O desenvolvimento do Appfoipara Android à partir do 4.4 KitKat, e para o desenvolvimento do layout do App, interação com o servidor web, gerenciamento dos dados das operações, e a integração com as funcionalidades, foi utilizada a IDE Android Studio 3.1.3, onde usamos a linguagem Java. O layout do App é dinâmico, ele muda a apresentação da tela conforme a interação do usuário, como no caso da Na criação dos métodos de resolução das operações matriciais, foi utilizado a IDE Eclipse Oxigen 3, onde em linguagem Java, pudemos realizar os testes com as resoluções das operações anteriormente supracitadas, para a partir daí colocarmos as mesmas no android Studio, evitando assim uma sobrecarga de memória em cada simulação de layout nos momentos dos testes no App.
 
 **4.2 Arquitetura do Software**
 
-      Conforme mencionado anteriormente, nosso banco de dados é bem simples, pois possui apenas duas tabelas conforme imagem 1, onde temos o usuário (users), e o histórico (history), onde colocamos guardamos o _result_ que vai no Json.
+      Conforme mencionado anteriormente, nosso banco de dados é bem simples, pois possui apenas duas tabelas conforme imagem 1, onde temos o usuário (users), e o histórico (history), onde colocamos guardamos o result que vai no Json.
 
 | **Imagem 1** : Modelo do Banco de Dados |
 | --- |

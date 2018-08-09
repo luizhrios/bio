@@ -117,8 +117,10 @@ O desenvolvimento do App foipara Android à partir do 4.4 KitKat, e para o desen
 Conforme mencionado anteriormente, nosso banco de dados é bem simples, pois possui apenas duas tabelas conforme imagem 1, onde temos o usuário (users), e o histórico (history), onde colocamos guardamos o result que vai no Json.
 
 | **Imagem 1** : Modelo do Banco de Dados |
+| --- |
 
  ![](imgs/image1.png)
+
 
 | **Fonte:** Próprio autor |
 
@@ -129,8 +131,6 @@ A partir daí pega-se os dados do Json e salva no Banco no MySQL, e ao buscar os
 
  ![](imgs/image2.png)
 
-
-|
 | **Fonte:** Próprio autor |
 
 Com relação ao desenvolvimento do layout no Android Studio, foi-se utilizado um padrão de estrutura onde foram utilizados alguns Linear Layouts dentro de um activity (imagem 4), para que a interface apresentada ao usuário seja dinâmica e se ajuste conforme a interação, disponibilizando campos para inserção de dados matriciais de acordo com o tipo de operação e o tamanho da matriz selecionada.
@@ -140,8 +140,6 @@ Com relação ao desenvolvimento do layout no Android Studio, foi-se utilizado u
 
  ![](imgs/image3.png)
 
-
-|
 | **Fonte:** Próprio autor |
 
 | **Imagem 4** : Estrutura do MainActivity |
@@ -149,26 +147,22 @@ Com relação ao desenvolvimento do layout no Android Studio, foi-se utilizado u
 
  ![](imgs/image4.png)
 
-
-|
 | **Fonte:** Próprio autor |
 
 Os métodos de resolução das operações matriciais foram todos escritos em Java e se dispõem no projeto na pasta MatrizSolver. Para tal, construímos essa parte do código no Eclipse Oxygen e depois dos mesmos terem passado nos testes unitários, colocamos na pasta do projeto conforme imagem abaixo.
 
 | **Imagem 5** : Print da tela com os métodos de resolução das operações
+
  ![](imgs/image5.png)
 
-
- |
-| --- |
-|   |
 | **Fonte:** Próprio autor |
+| --- |
 
 **4.3 Conceitos Matemáticos Empregados**
 
 Baseado no fato de que o Matriz Solver resolve matrizes e que durante seu desenvolvimento precisamos ensinar ao software como resolver essas operações com matrizes criando métodos algoritmos, foi de extrema relevância o estudo dos conceitos matemáticos correlatos. Dentre eles, operações entre matrizes, cálculo de determinantes, cofator, matriz adjunta, cálculo da inversa, métodos de cramer, método de gauss, sistemas lineares, etc…
 
-_&quot;Em_ [matemática](https://pt.wikipedia.org/wiki/Matem%C3%A1tica)_, determinante é uma_ [função matricial](https://pt.wikipedia.org/wiki/Fun%C3%A7%C3%A3o_matricial) _que associa a cada_ [matriz](https://pt.wikipedia.org/wiki/Matriz_(matem%C3%A1tica))[quadrada](https://pt.wikipedia.org/wiki/Matriz_(matem%C3%A1tica)#Matriz_quadrada) _um_ [escalar](https://pt.wikipedia.org/wiki/Escalar)_; ela transforma essa matriz em um_ [número real](https://pt.wikipedia.org/wiki/N%C3%BAmero_real)_.&quot;__ Esta função permite saber se a matriz tem ou não_ [inversa](https://pt.wikipedia.org/wiki/Matriz_inversa)_, pois as que não têm são precisamente aquelas cujo determinante é igual a_ [0](https://pt.wikipedia.org/wiki/Zero)_.&quot;_[Campagner, 2013].
+"Em_ [matemática](https://pt.wikipedia.org/wiki/Matem%C3%A1tica)_, determinante é uma_ [função matricial](https://pt.wikipedia.org/wiki/Fun%C3%A7%C3%A3o_matricial) _que associa a cada_ [matriz](https://pt.wikipedia.org/wiki/Matriz_(matem%C3%A1tica))[quadrada](https://pt.wikipedia.org/wiki/Matriz_(matem%C3%A1tica)#Matriz_quadrada) _um_ [escalar](https://pt.wikipedia.org/wiki/Escalar)_; ela transforma essa matriz em um_ [número real](https://pt.wikipedia.org/wiki/N%C3%BAmero_real)_.&quot;__ Esta função permite saber se a matriz tem ou não_ [inversa](https://pt.wikipedia.org/wiki/Matriz_inversa)_, pois as que não têm são precisamente aquelas cujo determinante é igual a_ [0](https://pt.wikipedia.org/wiki/Zero)_.&quot;_[Campagner, 2013].
 
 | **Imagem 6** : Determinante de uma Matriz |
 | --- |

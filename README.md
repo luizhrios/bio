@@ -28,8 +28,6 @@ Para resolver as questões de realizar operações complexas com matrizes, como 
 
 **3 REQUISITOS**
 
-
-
 Este app foi desenvolvido para Android em linguagem Java, utilizando a IDE Android Studio 3.1.3. Para tal, foram seguidas as especificações descrita nos requisitos funcionais e não funcionais a seguir.
 
 **3.1 Requisitos Funcionais**
@@ -157,7 +155,7 @@ Com relação ao desenvolvimento do layout no Android Studio, foi-se utilizado u
 |
 | **Fonte:** Próprio autor |
 
-      Os métodos de resolução das operações matriciais foram todos escritos em Java e se dispõem no projeto na pasta MatrizSolver. Para tal, construímos essa parte do código no Eclipse Oxygen e depois dos mesmos terem passado nos testes unitários, colocamos na pasta do projeto conforme imagem abaixo.
+Os métodos de resolução das operações matriciais foram todos escritos em Java e se dispõem no projeto na pasta MatrizSolver. Para tal, construímos essa parte do código no Eclipse Oxygen e depois dos mesmos terem passado nos testes unitários, colocamos na pasta do projeto conforme imagem abaixo.
 
 | **Imagem 5** : Print da tela com os métodos de resolução das operações
  ![](imgs/image5.png)
@@ -199,7 +197,7 @@ Segundo IEZZI 2002, definimos a soma das matrizes e como sendo a matriz em que ,
 
 "_Dizemos que o sistema linear é, respectivamente, impossível, possível e determinado ou possível e indeterminado, conforme o conjunto solução seja vazio, unitário ou possua pelo menos dois elementos&quot;...&quot; o escalonamento consiste em encontrar um sistema equivalente ao sistema dado usando operações básicas de tal forma que o sistema encontrado seja um sistema escalonado_."
 
-	Todos os métodos criados para a resolução de matrizes foram baseados no estudo matemático dos conceitos acima mencionados.
+Todos os métodos criados para a resolução de matrizes foram baseados no estudo matemático dos conceitos acima mencionados.
 
 **4.4 Casos de Uso**
 
@@ -277,11 +275,11 @@ Fluxo Principal:
 
 **5 RESULTADOS**
 
-         Baseado nos requisitos funcionais e não funcionais, nas especificações de projeto, como os casos de uso, e diagrama UML,  o Matriz Solver foi desenvolvido de tal forma que atende a essas demandas específicas, e esses resultados estão dispostos nos subitens 5.1 Apresentação do Aplicativo, 5.2 Recursos, Funcionalidades e Vantagens, e 5.3 Limitações.
+Baseado nos requisitos funcionais e não funcionais, nas especificações de projeto, como os casos de uso, e diagrama UML,  o Matriz Solver foi desenvolvido de tal forma que atende a essas demandas específicas, e esses resultados estão dispostos nos subitens 5.1 Apresentação do Aplicativo, 5.2 Recursos, Funcionalidades e Vantagens, e 5.3 Limitações.
 
 **5.1 Apresentação do Aplicativo**
 
-       Objetivando tornar o App intuitivo e atrativo para os usuários, diferentes tipos de interfaces, com diferentes layouts foram testados, e no final optamos por dispor na tela principal um menu no canto superior esquerdo com as opções das operações matriciais, e no meio da interface, o histórico, de forma que o usuário possa escolher visualizar o histórico ou realizar uma operação, tudo numa mesma tela. Outro detalhe importante foi que eliminamos a possibilidade de fundo com cor clara no App, pois apesar de remeter a uma folha de papel para o usuário, gera um maior consumo de bateria. Optou-se pela interface  (fundo Grafite) que melhor realçava o texto de (cor branca), além de ser atrativa.
+ Objetivando tornar o App intuitivo e atrativo para os usuários, diferentes tipos de interfaces, com diferentes layouts foram testados, e no final optamos por dispor na tela principal um menu no canto superior esquerdo com as opções das operações matriciais, e no meio da interface, o histórico, de forma que o usuário possa escolher visualizar o histórico ou realizar uma operação, tudo numa mesma tela. Outro detalhe importante foi que eliminamos a possibilidade de fundo com cor clara no App, pois apesar de remeter a uma folha de papel para o usuário, gera um maior consumo de bateria. Optou-se pela interface  (fundo Grafite) que melhor realçava o texto de (cor branca), além de ser atrativa.
 
 | **Imagem 9** : Tela Inicial com histórico e menu de operações |
 | --- |
@@ -291,7 +289,7 @@ Fluxo Principal:
 |
 | **Fonte:** Próprio Autor |
 
-      Nas telas que seguem ao se escolher a operação com matrizes, o  aplicativo disponibiliza os campos para que se escolha o(s) tamanho(s) da(s) matriz(es) a ser(em) operada(s). para em seguida gerar a(s) matriz(es) vazia(s) onde o usuário preenche com os dados. O processo é concluído ao selecionar a opção que realiza a operação, mostrando o resultado , e salvando no histórico
+Nas telas que seguem ao se escolher a operação com matrizes, o  aplicativo disponibiliza os campos para que se escolha o(s) tamanho(s) da(s) matriz(es) a ser(em) operada(s). para em seguida gerar a(s) matriz(es) vazia(s) onde o usuário preenche com os dados. O processo é concluído ao selecionar a opção que realiza a operação, mostrando o resultado , e salvando no histórico
 
 | **Imagem 12** : Telas de uma resolução de soma entre matrizes e salvando histórico |
 | --- |
@@ -315,9 +313,9 @@ Seguem abaixo algumas outras telas do Matriz Solver.
 
 **5.2 Recursos, Funcionalidades e Vantagens**
 
-         Na Imagem 12, são apresentadas algumas telas do Matriz Solver que exemplificam o uso do App para realizar uma multiplicação entre matrizes. Para que não ocorra de que uma matriz venha a tentar ser multiplicada por outra incompatível, foi utilizado um recurso onde ao se escolher a dimensão da primeira matriz, o número de linhas da outra já aparece de forma compatível, eliminando assim esse tipo de erro.  Outra funcionalidade, é que o não preenchimento da matriz em determinada operação, passa por um recurso validação de campo, onde se verifica a variável atribuída àquele campo da matriz como sendo nula ou não (Imagem 12). O aplicativo não permite que uma operação seja realizada se a matriz não for completamente preenchida antes de realizar a operação.
+   Na Imagem 12, são apresentadas algumas telas do Matriz Solver que exemplificam o uso do App para realizar uma multiplicação entre matrizes. Para que não ocorra de que uma matriz venha a tentar ser multiplicada por outra incompatível, foi utilizado um recurso onde ao se escolher a dimensão da primeira matriz, o número de linhas da outra já aparece de forma compatível, eliminando assim esse tipo de erro.  Outra funcionalidade, é que o não preenchimento da matriz em determinada operação, passa por um recurso validação de campo, onde se verifica a variável atribuída àquele campo da matriz como sendo nula ou não (Imagem 12). O aplicativo não permite que uma operação seja realizada se a matriz não for completamente preenchida antes de realizar a operação.
 
-       Uma das vantagens do Matriz Solver em relação a outros softwares que realizam operações matriciais, é o fato de que ele foi pensado para ser especializado. Ele apenas resolve as operações básicas descritas em seus requisitos, tornado-o assim uma calculadora de matriz portátil. Outra vantagem do Matriz Solver, é a forma intuitiva de ser usar, tornando-o funcional não só para usuário experientes e especializados, mas também para o usuário comum.
+ Uma das vantagens do Matriz Solver em relação a outros softwares que realizam operações matriciais, é o fato de que ele foi pensado para ser especializado. Ele apenas resolve as operações básicas descritas em seus requisitos, tornado-o assim uma calculadora de matriz portátil. Outra vantagem do Matriz Solver, é a forma intuitiva de ser usar, tornando-o funcional não só para usuário experientes e especializados, mas também para o usuário comum.
 
 | **Imagem 12** : Telas de uma resolução de multiplicação entre matrizes |
 | --- |
@@ -330,7 +328,7 @@ Seguem abaixo algumas outras telas do Matriz Solver.
 
 **5.3 Limitações**
 
-      Umas das limitações do aplicativo é o fato de ele não apresentar uma análise do sistema linear durante a resolução, classificando em Sistema possível e determinado (SPD), Sistema possível e Indeterminado (SPI), ou Sistema Impossível (SI). Fato esse que poderá ser corrigido numa futura atualização do App, possivelmente emitindo um toast com essa classificação do sistema.
+Umas das limitações do aplicativo é o fato de ele não apresentar uma análise do sistema linear durante a resolução, classificando em Sistema possível e determinado (SPD), Sistema possível e Indeterminado (SPI), ou Sistema Impossível (SI). Fato esse que poderá ser corrigido numa futura atualização do App, possivelmente emitindo um toast com essa classificação do sistema.
 
 Outra limitação do aplicativo está no caso de uma possível classificação em SPI, onde ele deveria mostrar os resultados em função de uma variável específica (Imagem 13), permitindo ao usuário enxergar a gama de possibilidades da resolução de um SPI.
 
@@ -344,7 +342,7 @@ Outra limitação do aplicativo está no caso de uma possível classificação e
 
 **4 CONLUSÃO**
 
-           Nesse projeto foram contemplados todos os requisitos pré estabelecidos conforme a concepção do mesmo, cumprindo assim com todo o escopo de arquitetura  planejado . Com relação às funcionalidades do App,  o Matriz Solver se mostrou bastante satisfatório em seu funcionamento, cumprindo os casos de uso gerados a partir da análise dos requisitos. As dificuldades durante a implementação ocorreram devido a busca pelo conhecimento matemático e técnico, que ocorreu em paralelo com o desenvolvimento do App, e também devido ao ciclo de testes realizados durante todo o processo de implementação, onde erros surgiam devido a exceções que não eram inicialmente tratadas, mas que com o caminhar da pesquisa e consultas, eram sanadas gradativamente, possibilitando ao final do projeto um App funcional conforme o tópico que trata das funcionalidades, e com melhorias a serem feitas conforme o tópico que trata das limitações do software.
+     Nesse projeto foram contemplados todos os requisitos pré estabelecidos conforme a concepção do mesmo, cumprindo assim com todo o escopo de arquitetura  planejado . Com relação às funcionalidades do App,  o Matriz Solver se mostrou bastante satisfatório em seu funcionamento, cumprindo os casos de uso gerados a partir da análise dos requisitos. As dificuldades durante a implementação ocorreram devido a busca pelo conhecimento matemático e técnico, que ocorreu em paralelo com o desenvolvimento do App, e também devido ao ciclo de testes realizados durante todo o processo de implementação, onde erros surgiam devido a exceções que não eram inicialmente tratadas, mas que com o caminhar da pesquisa e consultas, eram sanadas gradativamente, possibilitando ao final do projeto um App funcional conforme o tópico que trata das funcionalidades, e com melhorias a serem feitas conforme o tópico que trata das limitações do software.
 
 **REFERÊNCIAS**
 

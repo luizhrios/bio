@@ -116,7 +116,7 @@ O desenvolvimento do App foipara Android à partir do 4.4 KitKat, e para o desen
 
 **4.2 Arquitetura do Software**
 
-    Conforme mencionado anteriormente, nosso banco de dados é bem simples, pois possui apenas duas tabelas conforme imagem 1, onde temos o usuário (users), e o histórico (history), onde colocamos guardamos o result que vai no Json.
+Conforme mencionado anteriormente, nosso banco de dados é bem simples, pois possui apenas duas tabelas conforme imagem 1, onde temos o usuário (users), e o histórico (history), onde colocamos guardamos o result que vai no Json.
 
 | **Imagem 1** : Modelo do Banco de Dados |
 | --- |
@@ -124,12 +124,9 @@ O desenvolvimento do App foipara Android à partir do 4.4 KitKat, e para o desen
  ![](imgs/image1.png)
 
 
-|
 | **Fonte:** Próprio autor |
 
-
-
-      A partir daí pega-se os dados do Json e salva no Banco no MySQL, e ao buscar os dados na web, usa-se o Gson para traduzir os dados do Json para a aplicação. Abaixo podemos visualizar a estrutura do banco. A aplicação web, que é a API do projeto, também foi desenvolvida na linguagem Java e executa o processo de intermediar os dados do App Matriz Solver para o banco de dados e do banco de dados para o App.
+A partir daí pega-se os dados do Json e salva no Banco no MySQL, e ao buscar os dados na web, usa-se o Gson para traduzir os dados do Json para a aplicação. Abaixo podemos visualizar a estrutura do banco. A aplicação web, que é a API do projeto, também foi desenvolvida na linguagem Java e executa o processo de intermediar os dados do App Matriz Solver para o banco de dados e do banco de dados para o App.
 
 | **Imagem 2** : Estrutura do Banco de Dados do Matriz Solver |
 | --- |

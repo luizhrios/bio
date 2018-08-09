@@ -110,7 +110,7 @@ RNF04 – A Manutenção será feita por atualizações disponíveis na PlayStor
 
 Nosso App não tem uma estrutura de banco de dados complexa, pois só armazenamos os resultados das 5 últimas operações do usuário, onde os resultados dessas operações são embutidas em campos textuais no formato JSON, sendo convertidos com a biblioteca Gson.
 > JSON (JavaScript Object Notation) é uma formatação leve de troca de dados... baseado em um subconjunto da linguagem de programação JavaScript ...é em formato texto e completamente independente de linguagem"
-> - [json.org,2018]
+> [json.org,2018]
 
 O desenvolvimento do Appfoipara Android à partir do 4.4 KitKat, e para o desenvolvimento do layout do App, interação com o servidor web, gerenciamento dos dados das operações, e a integração com as funcionalidades, foi utilizada a IDE Android Studio 3.1.3, onde usamos a linguagem Java. O layout do App é dinâmico, ele muda a apresentação da tela conforme a interação do usuário, como no caso da Na criação dos métodos de resolução das operações matriciais, foi utilizado a IDE Eclipse Oxigen 3, onde em linguagem Java, pudemos realizar os testes com as resoluções das operações anteriormente supracitadas, para a partir daí colocarmos as mesmas no android Studio, evitando assim uma sobrecarga de memória em cada simulação de layout nos momentos dos testes no App.
 
@@ -120,11 +120,11 @@ O desenvolvimento do Appfoipara Android à partir do 4.4 KitKat, e para o desenv
 
 | **Imagem 1** : Modelo do Banco de Dados |
 | --- |
-|
+
  ![](imgs/image1.png)
 
 
- |
+|
 | **Fonte:** Próprio autor |
 
 
@@ -133,31 +133,31 @@ O desenvolvimento do Appfoipara Android à partir do 4.4 KitKat, e para o desenv
 
 | **Imagem 2** : Estrutura do Banco de Dados do Matriz Solver |
 | --- |
-|
+
  ![](imgs/image2.png)
 
 
- |
+|
 | **Fonte:** Próprio autor |
 
 Com relação ao desenvolvimento do layout no Android Studio, foi-se utilizado um padrão de estrutura onde foram utilizados alguns Linear Layouts dentro de um activity (imagem 4), para que a interface apresentada ao usuário seja dinâmica e se ajuste conforme a interação, disponibilizando campos para inserção de dados matriciais de acordo com o tipo de operação e o tamanho da matriz selecionada.
 
 | **Imagem 3** : Estrutura do Projeto no Android Studio |
 | --- |
-|
+
  ![](imgs/image3.png)
 
 
- |
+|
 | **Fonte:** Próprio autor |
 
 | **Imagem 4** : Estrutura do MainActivity |
 | --- |
-|
+
  ![](imgs/image4.png)
 
 
- |
+|
 | **Fonte:** Próprio autor |
 
       Os métodos de resolução das operações matriciais foram todos escritos em Java e se dispõem no projeto na pasta MatrizSolver. Para tal, construímos essa parte do código no Eclipse Oxygen e depois dos mesmos terem passado nos testes unitários, colocamos na pasta do projeto conforme imagem abaixo.
@@ -197,15 +197,14 @@ Segundo IEZZI 2002, definimos a soma das matrizes e como sendo a matriz em que ,
  
  ![](imgs/image9.png)
 
-
- |
+|
 | **Fonte:** www.infoescola.com |
 
-&quot;_Dizemos que o sistema linear é, respectivamente, impossível, possível e determinado ou possível e indeterminado, conforme o conjunto solução seja vazio, unitário ou possua pelo menos dois elementos&quot;...&quot; o escalonamento consiste em encontrar um sistema equivalente ao sistema dado usando operações básicas de tal forma que o sistema encontrado seja um sistema escalonado_&quot;.
+"_Dizemos que o sistema linear é, respectivamente, impossível, possível e determinado ou possível e indeterminado, conforme o conjunto solução seja vazio, unitário ou possua pelo menos dois elementos&quot;...&quot; o escalonamento consiste em encontrar um sistema equivalente ao sistema dado usando operações básicas de tal forma que o sistema encontrado seja um sistema escalonado_."
 
-      Todos os métodos criados para a resolução de matrizes foram baseados no estudo matemático dos conceitos acima mencionados.
+	Todos os métodos criados para a resolução de matrizes foram baseados no estudo matemático dos conceitos acima mencionados.
 
-**4 **. ****4 ** Casos de Uso**
+**4.4 Casos de Uso**
 
 O App Matriz Solver, se apresenta conforme os casos de uso e o diagrama UML. Seguem abaixo os descritivos dos casos de uso e o diagrama UML.
 
@@ -268,7 +267,7 @@ Fluxo Principal:
 
 2. O Sistema deverá apresentar o resultado da operação solicitada pelo usuário.
 
-**4 **. ****5   **Uml Diagrama de Casos de Uso**
+**4.5 Uml Diagrama de Casos de Uso**
 
 | **Imagem 8** : Diagrama UML |
 | --- |
@@ -276,7 +275,7 @@ Fluxo Principal:
  ![](imgs/image10.png)
 
 
- |
+|
 | **Fonte:** Próprio Autor   |
 
 **5 RESULTADOS**
@@ -292,15 +291,13 @@ Fluxo Principal:
 |
  ![](imgs/image11.png)
 
-
- |
+|
 | **Fonte:** Próprio Autor |
 
       Nas telas que seguem ao se escolher a operação com matrizes, o  aplicativo disponibiliza os campos para que se escolha o(s) tamanho(s) da(s) matriz(es) a ser(em) operada(s). para em seguida gerar a(s) matriz(es) vazia(s) onde o usuário preenche com os dados. O processo é concluído ao selecionar a opção que realiza a operação, mostrando o resultado , e salvando no histórico
 
-| **Imagem**  **12** : Telas de uma resolução de soma entre matrizes e salvando histórico |
+| **Imagem 12** : Telas de uma resolução de soma entre matrizes e salvando histórico |
 | --- |
-|   |
 |
  ![](imgs/image12.png)
 
@@ -310,9 +307,8 @@ Fluxo Principal:
 
 Seguem abaixo algumas outras telas do Matriz Solver.
 
-| **Imagem**  **11** : Telas de uma resolução de um determinante e salvando histórico |
+| **Imagem 11** : Telas de uma resolução de um determinante e salvando histórico |
 | --- |
-|   |
 |
  ![](imgs/image13.png)
 
@@ -343,11 +339,10 @@ Outra limitação do aplicativo está no caso de uma possível classificação e
 
 | **Imagem 13** : Resolução de um Sistema possível e Indeterminado (SPI) |
 | --- |
-|
  ![](imgs/image15.png)
 
 
- |
+|
 | **Fonte:** www.alunosonline.uol.com.br |
 
 **4 CONLUSÃO**

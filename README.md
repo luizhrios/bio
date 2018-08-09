@@ -117,10 +117,8 @@ O desenvolvimento do App foipara Android à partir do 4.4 KitKat, e para o desen
 Conforme mencionado anteriormente, nosso banco de dados é bem simples, pois possui apenas duas tabelas conforme imagem 1, onde temos o usuário (users), e o histórico (history), onde colocamos guardamos o result que vai no Json.
 
 | **Imagem 1** : Modelo do Banco de Dados |
-| --- |
 
  ![](imgs/image1.png)
-
 
 | **Fonte:** Próprio autor |
 

@@ -112,11 +112,11 @@ Nosso App não tem uma estrutura de banco de dados complexa, pois só armazenamo
 > JSON (JavaScript Object Notation) é uma formatação leve de troca de dados... baseado em um subconjunto da linguagem de programação JavaScript ...é em formato texto e completamente independente de linguagem"
 > [json.org,2018]
 
-O desenvolvimento do Appfoipara Android à partir do 4.4 KitKat, e para o desenvolvimento do layout do App, interação com o servidor web, gerenciamento dos dados das operações, e a integração com as funcionalidades, foi utilizada a IDE Android Studio 3.1.3, onde usamos a linguagem Java. O layout do App é dinâmico, ele muda a apresentação da tela conforme a interação do usuário, como no caso da Na criação dos métodos de resolução das operações matriciais, foi utilizado a IDE Eclipse Oxigen 3, onde em linguagem Java, pudemos realizar os testes com as resoluções das operações anteriormente supracitadas, para a partir daí colocarmos as mesmas no android Studio, evitando assim uma sobrecarga de memória em cada simulação de layout nos momentos dos testes no App.
+O desenvolvimento do App foipara Android à partir do 4.4 KitKat, e para o desenvolvimento do layout do App, interação com o servidor web, gerenciamento dos dados das operações, e a integração com as funcionalidades, foi utilizada a IDE Android Studio 3.1.3, onde usamos a linguagem Java. O layout do App é dinâmico, ele muda a apresentação da tela conforme a interação do usuário, como no caso da Na criação dos métodos de resolução das operações matriciais, foi utilizado a IDE Eclipse Oxigen 3, onde em linguagem Java, pudemos realizar os testes com as resoluções das operações anteriormente supracitadas, para a partir daí colocarmos as mesmas no android Studio, evitando assim uma sobrecarga de memória em cada simulação de layout nos momentos dos testes no App.
 
 **4.2 Arquitetura do Software**
 
-      Conforme mencionado anteriormente, nosso banco de dados é bem simples, pois possui apenas duas tabelas conforme imagem 1, onde temos o usuário (users), e o histórico (history), onde colocamos guardamos o result que vai no Json.
+	Conforme mencionado anteriormente, nosso banco de dados é bem simples, pois possui apenas duas tabelas conforme imagem 1, onde temos o usuário (users), e o histórico (history), onde colocamos guardamos o result que vai no Json.
 
 | **Imagem 1** : Modelo do Banco de Dados |
 | --- |

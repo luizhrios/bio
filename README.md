@@ -152,6 +152,7 @@ Com relação ao desenvolvimento do layout no Android Studio, foi-se utilizado u
 Os métodos de resolução das operações matriciais foram todos escritos em Java e se dispõem no projeto na pasta MatrizSolver. Para tal, construímos essa parte do código no Eclipse Oxygen e depois dos mesmos terem passado nos testes unitários, colocamos na pasta do projeto conforme imagem abaixo.
 
 | **Imagem 5** : Print da tela com os métodos de resolução das operações
+| --- |
 
  ![](imgs/image5.png)
 
@@ -162,7 +163,7 @@ Os métodos de resolução das operações matriciais foram todos escritos em Ja
 
 Baseado no fato de que o Matriz Solver resolve matrizes e que durante seu desenvolvimento precisamos ensinar ao software como resolver essas operações com matrizes criando métodos algoritmos, foi de extrema relevância o estudo dos conceitos matemáticos correlatos. Dentre eles, operações entre matrizes, cálculo de determinantes, cofator, matriz adjunta, cálculo da inversa, métodos de cramer, método de gauss, sistemas lineares, etc…
 
-"Em_ [matemática](https://pt.wikipedia.org/wiki/Matem%C3%A1tica)_, determinante é uma_ [função matricial](https://pt.wikipedia.org/wiki/Fun%C3%A7%C3%A3o_matricial) _que associa a cada_ [matriz](https://pt.wikipedia.org/wiki/Matriz_(matem%C3%A1tica))[quadrada](https://pt.wikipedia.org/wiki/Matriz_(matem%C3%A1tica)#Matriz_quadrada) _um_ [escalar](https://pt.wikipedia.org/wiki/Escalar)_; ela transforma essa matriz em um_ [número real](https://pt.wikipedia.org/wiki/N%C3%BAmero_real)_.&quot;__ Esta função permite saber se a matriz tem ou não_ [inversa](https://pt.wikipedia.org/wiki/Matriz_inversa)_, pois as que não têm são precisamente aquelas cujo determinante é igual a_ [0](https://pt.wikipedia.org/wiki/Zero)_.&quot;_[Campagner, 2013].
+"Em_ [matemática](https://pt.wikipedia.org/wiki/Matem%C3%A1tica)_, determinante é uma_ [função matricial](https://pt.wikipedia.org/wiki/Fun%C3%A7%C3%A3o_matricial) _que associa a cada_ [matriz](https://pt.wikipedia.org/wiki/Matriz_(matem%C3%A1tica))[quadrada](https://pt.wikipedia.org/wiki/Matriz_(matem%C3%A1tica)#Matriz_quadrada) _um_ [escalar](https://pt.wikipedia.org/wiki/Escalar)_; ela transforma essa matriz em um_ [número real](https://pt.wikipedia.org/wiki/N%C3%BAmero_real)_."__ Esta função permite saber se a matriz tem ou não_ [inversa](https://pt.wikipedia.org/wiki/Matriz_inversa)_, pois as que não têm são precisamente aquelas cujo determinante é igual a_ [0](https://pt.wikipedia.org/wiki/Zero)_."_[Campagner, 2013].
 
 | **Imagem 6** : Determinante de uma Matriz |
 | --- |
@@ -187,7 +188,7 @@ Segundo IEZZI 2002, definimos a soma das matrizes e como sendo a matriz em que ,
 |
 | **Fonte:** www.infoescola.com |
 
-"_Dizemos que o sistema linear é, respectivamente, impossível, possível e determinado ou possível e indeterminado, conforme o conjunto solução seja vazio, unitário ou possua pelo menos dois elementos&quot;...&quot; o escalonamento consiste em encontrar um sistema equivalente ao sistema dado usando operações básicas de tal forma que o sistema encontrado seja um sistema escalonado_."
+"_Dizemos que o sistema linear é, respectivamente, impossível, possível e determinado ou possível e indeterminado, conforme o conjunto solução seja vazio, unitário ou possua pelo menos dois elementos"..." o escalonamento consiste em encontrar um sistema equivalente ao sistema dado usando operações básicas de tal forma que o sistema encontrado seja um sistema escalonado_."
 
 Todos os métodos criados para a resolução de matrizes foram baseados no estudo matemático dos conceitos acima mencionados.
 
@@ -211,7 +212,7 @@ Fluxo Principal:
 
 Fluxo Alternativo (Histórico):
 
-1. O fluxo de exceção se inicia quando se seleciona uma operação realizada no histórico ao invés de &quot;Operação&quot;.
+1. O fluxo de exceção se inicia quando se seleciona uma operação realizada no histórico ao invés de "Operação".
 2. O usuário terá a opção de retornar à operação realizada anteriormente desejada ao clicar na mesma.
 
 UC002 – Inserir tamanho da(s) matriz(es)
@@ -258,11 +259,9 @@ Fluxo Principal:
 
 | **Imagem 8** : Diagrama UML |
 | --- |
-|
+
  ![](imgs/image10.png)
 
-
-|
 | **Fonte:** Próprio Autor   |
 
 **5 RESULTADOS**
@@ -275,37 +274,32 @@ Baseado nos requisitos funcionais e não funcionais, nas especificações de pro
 
 | **Imagem 9** : Tela Inicial com histórico e menu de operações |
 | --- |
-|
+
  ![](imgs/image11.png)
 
-|
 | **Fonte:** Próprio Autor |
 
 Nas telas que seguem ao se escolher a operação com matrizes, o  aplicativo disponibiliza os campos para que se escolha o(s) tamanho(s) da(s) matriz(es) a ser(em) operada(s). para em seguida gerar a(s) matriz(es) vazia(s) onde o usuário preenche com os dados. O processo é concluído ao selecionar a opção que realiza a operação, mostrando o resultado , e salvando no histórico
 
 | **Imagem 12** : Telas de uma resolução de soma entre matrizes e salvando histórico |
 | --- |
-|
+
  ![](imgs/image12.png)
 
-
- |
 | **Fonte:** Próprio Autor |
 
 Seguem abaixo algumas outras telas do Matriz Solver.
 
 | **Imagem 11** : Telas de uma resolução de um determinante e salvando histórico |
 | --- |
-|
+
  ![](imgs/image13.png)
 
-
- |
 | **Fonte:** Próprio Autor  |
 
 **5.2 Recursos, Funcionalidades e Vantagens**
 
-   Na Imagem 12, são apresentadas algumas telas do Matriz Solver que exemplificam o uso do App para realizar uma multiplicação entre matrizes. Para que não ocorra de que uma matriz venha a tentar ser multiplicada por outra incompatível, foi utilizado um recurso onde ao se escolher a dimensão da primeira matriz, o número de linhas da outra já aparece de forma compatível, eliminando assim esse tipo de erro.  Outra funcionalidade, é que o não preenchimento da matriz em determinada operação, passa por um recurso validação de campo, onde se verifica a variável atribuída àquele campo da matriz como sendo nula ou não (Imagem 12). O aplicativo não permite que uma operação seja realizada se a matriz não for completamente preenchida antes de realizar a operação.
+Na Imagem 12, são apresentadas algumas telas do Matriz Solver que exemplificam o uso do App para realizar uma multiplicação entre matrizes. Para que não ocorra de que uma matriz venha a tentar ser multiplicada por outra incompatível, foi utilizado um recurso onde ao se escolher a dimensão da primeira matriz, o número de linhas da outra já aparece de forma compatível, eliminando assim esse tipo de erro.  Outra funcionalidade, é que o não preenchimento da matriz em determinada operação, passa por um recurso validação de campo, onde se verifica a variável atribuída àquele campo da matriz como sendo nula ou não (Imagem 12). O aplicativo não permite que uma operação seja realizada se a matriz não for completamente preenchida antes de realizar a operação.
 
  Uma das vantagens do Matriz Solver em relação a outros softwares que realizam operações matriciais, é o fato de que ele foi pensado para ser especializado. Ele apenas resolve as operações básicas descritas em seus requisitos, tornado-o assim uma calculadora de matriz portátil. Outra vantagem do Matriz Solver, é a forma intuitiva de ser usar, tornando-o funcional não só para usuário experientes e especializados, mas também para o usuário comum.
 

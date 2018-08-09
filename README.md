@@ -157,7 +157,6 @@ Os métodos de resolução das operações matriciais foram todos escritos em Ja
  ![](imgs/image5.png)
 
 | **Fonte:** Próprio autor |
-| --- |
 
 **4.3 Conceitos Matemáticos Empregados**
 
@@ -302,11 +301,9 @@ Na Imagem 12, são apresentadas algumas telas do Matriz Solver que exemplificam 
 
 | **Imagem 12** : Telas de uma resolução de multiplicação entre matrizes |
 | --- |
-|
+
  ![](imgs/image14.png)
 
-
- |
 |   **Fonte:** Próprio Autor |
 
 **5.3 Limitações**
@@ -317,10 +314,9 @@ Outra limitação do aplicativo está no caso de uma possível classificação e
 
 | **Imagem 13** : Resolução de um Sistema possível e Indeterminado (SPI) |
 | --- |
+
  ![](imgs/image15.png)
 
-
-|
 | **Fonte:** www.alunosonline.uol.com.br |
 
 **4 CONLUSÃO**

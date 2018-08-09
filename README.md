@@ -163,29 +163,26 @@ Os métodos de resolução das operações matriciais foram todos escritos em Ja
 
 Baseado no fato de que o Matriz Solver resolve matrizes e que durante seu desenvolvimento precisamos ensinar ao software como resolver essas operações com matrizes criando métodos algoritmos, foi de extrema relevância o estudo dos conceitos matemáticos correlatos. Dentre eles, operações entre matrizes, cálculo de determinantes, cofator, matriz adjunta, cálculo da inversa, métodos de cramer, método de gauss, sistemas lineares, etc…
 
-"Em_ [matemática](https://pt.wikipedia.org/wiki/Matem%C3%A1tica)_, determinante é uma_ [função matricial](https://pt.wikipedia.org/wiki/Fun%C3%A7%C3%A3o_matricial) _que associa a cada_ [matriz](https://pt.wikipedia.org/wiki/Matriz_(matem%C3%A1tica))[quadrada](https://pt.wikipedia.org/wiki/Matriz_(matem%C3%A1tica)#Matriz_quadrada) _um_ [escalar](https://pt.wikipedia.org/wiki/Escalar)_; ela transforma essa matriz em um_ [número real](https://pt.wikipedia.org/wiki/N%C3%BAmero_real)_."__ Esta função permite saber se a matriz tem ou não_ [inversa](https://pt.wikipedia.org/wiki/Matriz_inversa)_, pois as que não têm são precisamente aquelas cujo determinante é igual a_ [0](https://pt.wikipedia.org/wiki/Zero)_."_[Campagner, 2013].
+"Em_ [matemática](https://pt.wikipedia.org/wiki/Matem%C3%A1tica)_, determinante é uma [função matricial](https://pt.wikipedia.org/wiki/Fun%C3%A7%C3%A3o_matricial) que associa a cada [matriz](https://pt.wikipedia.org/wiki/Matriz_(matem%C3%A1tica))[quadrada](https://pt.wikipedia.org/wiki/Matriz_(matem%C3%A1tica)#Matriz_quadrada) um [escalar](https://pt.wikipedia.org/wiki/Escalar); ela transforma essa matriz em um [número real](https://pt.wikipedia.org/wiki/N%C3%BAmero_real)." Esta função permite saber se a matriz tem ou não [inversa](https://pt.wikipedia.org/wiki/Matriz_inversa), pois as que não têm são precisamente aquelas cujo determinante é igual a [0](https://pt.wikipedia.org/wiki/Zero)_."_[Campagner, 2013].
 
 | **Imagem 6** : Determinante de uma Matriz |
 | --- |
-|
+
  ![](imgs/image6.png)
 
-
- |
 | **Fonte:** wikipedia  |
 
 Segundo IEZZI 2002, definimos a soma das matrizes e como sendo a matriz em que , ou seja, somar A com B consiste em somar termos correspondentes, se ambas têm a mesma quantidade de linhas e de colunas. Já na multiplicação, realizamos um produto escalar entre uma matriz A e B, onde obrigatoriamente, o número de colunas de A deve ser igual ao número de linhas de B.
 
 | **Imagem 7** : Soma e Multiplicação de Matrizes |
 | --- |
-|
+
  ![](imgs/image7.png)
 
  ![](imgs/image8.png)
  
  ![](imgs/image9.png)
 
-|
 | **Fonte:** www.infoescola.com |
 
 "_Dizemos que o sistema linear é, respectivamente, impossível, possível e determinado ou possível e indeterminado, conforme o conjunto solução seja vazio, unitário ou possua pelo menos dois elementos"..." o escalonamento consiste em encontrar um sistema equivalente ao sistema dado usando operações básicas de tal forma que o sistema encontrado seja um sistema escalonado_."
